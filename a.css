@@ -1,0 +1,27 @@
+*{
+    background-color:black ;
+    font-family: 'Noto Serif', serif;
+    color: aliceblue;
+}
+
+body{
+    margin: 50px auto;
+    padding 10px, 20px;
+    max-width: 800px;
+    line-height: 1.5;
+}
+a{
+    color:rgb(160, 4, 250);
+}
+table, th, td{
+    border: 3px plum;
+    border-radius: 5px;
+    border-style: inset;
+}
+tr:nth-child(even) {
+    background-color: rgba(232, 147, 253, 0.4);
+  }
+  
+  th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(232, 147, 253, 0.4);
+  }
